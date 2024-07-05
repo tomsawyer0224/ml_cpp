@@ -20,7 +20,7 @@ How to use:
     #define ARMA_USE_BLAS \
     #include <iostream> \
     #include </usr/include/armadillo> \
-    #include "acapulco.h" \
+    \#include "acapulco.h" \
     
     
     using namespace std;
