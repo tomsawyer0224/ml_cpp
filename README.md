@@ -7,11 +7,12 @@ Based on: \
 About this project:
   1. C/C++ machine learning project backed by armadillo library.
   2. ML models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
-  3. Preprocessing methods: Min Max Scaler, Standard Scaler
-  4. Metrics: $R^2$ score, Accuracy score
-  5. Optimizers: SGD, SGD momentum
-  6. The code is naive, not optimized.
+  3. Preprocessing methods: Min Max Scaler, Standard Scaler.
+  4. Metrics: $R^2$ score, Accuracy score.
+  5. Optimizers: SGD, SGD momentum.
+  6. The code is naive, non-optimized.
 
 How to use:
-  1. Clone this project
-  2. 
+  1. Clone this project, cd to ml_cpp
+  2. The usage is similar to sklearn library
+  
