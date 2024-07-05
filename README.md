@@ -15,12 +15,12 @@ About this project:
 How to use:
   1. Clone this project, cd to ml_cpp
   2. The usage is similar to sklearn library
-  3. Example: \
+  3. Example:
 ```
-    #define ARMA_USE_LAPACK \
-    #define ARMA_USE_BLAS \
-    #include <iostream> \
-    #include </usr/include/armadillo> \
+    #define ARMA_USE_LAPACK
+    #define ARMA_USE_BLAS
+    #include <iostream>
+    #include </usr/include/armadillo>
     #include "acapulco.h"
     
     using namespace std;
