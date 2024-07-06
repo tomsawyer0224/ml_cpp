@@ -13,9 +13,10 @@ About this project:
   6. The code is naive, non-optimized.
 
 How to use:
-  1. Clone this project, cd to ml_cpp
-  2. The usage is similar to sklearn library
-  3. Example:
+  1. Clone this project.
+  2. Install the requirements: gcc compiler, armadilo library.
+  3. The usage is similar to sklearn library.
+  4. Example:
 ```
     #define ARMA_USE_LAPACK
     #define ARMA_USE_BLAS
