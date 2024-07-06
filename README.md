@@ -1,6 +1,7 @@
 This is a personal project, for educational purpose only!
 
 Based on: \
+  https://machinelearningcoban.com \
   https://scikit-learn.org/stable/index.html \
   https://github.com/scikit-learn/scikit-learn
 
