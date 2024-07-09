@@ -15,8 +15,8 @@ About this project:
 
 How to use:
   1. Clone this project.
-  2. Install the requirements: gcc compiler, armadilo library.
-  3. The usage is similar to sklearn library.
+  2. Install the requirements: gcc compiler, armadilo library, CMake.
+  3. The usage is similar to scikit-learn library.
   4. Example:
 ```
     #define ARMA_USE_LAPACK
