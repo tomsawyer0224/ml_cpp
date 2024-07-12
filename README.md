@@ -1,23 +1,22 @@
-This is a personal project, for educational purpose only!
+# This is a personal project, for educational purposes only!
 
-Based on: \
+# Based on: \
   https://machinelearningcoban.com \
   https://scikit-learn.org/stable/index.html \
   https://github.com/scikit-learn/scikit-learn
 
-About this project:
-  1. C/C++ machine learning project backed by armadillo library.
+# About this project:
+  1. A C/C++ machine learning project that is backed by the Armadillo library.
   2. ML models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
   3. Preprocessing methods: Min Max Scaler, Standard Scaler.
   4. Metrics: $R^2$ score, Accuracy score.
   5. Optimizers: SGD, SGD momentum.
-  6. The code is naive, non-optimized.
+  6. The code is naive and non-optimized.
 
-How to use:
+# How to use:
   1. Clone this project.
   2. Install the requirements: gcc compiler, armadilo library, CMake.
-  3. The usage is similar to scikit-learn library.
-  4. Example:
+  3. Example:
 ```
     #define ARMA_USE_LAPACK
     #define ARMA_USE_BLAS
