@@ -1,8 +1,4 @@
 # This is a personal project, for educational purposes only!
-# Based on:
-  https://machinelearningcoban.com \
-  https://scikit-learn.org/stable/index.html \
-  https://github.com/scikit-learn/scikit-learn
 # About this project:
 1. A C/C++ machine learning project that is backed by the Armadillo library.
 2. ML models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
@@ -62,3 +58,7 @@ int main(int argc, char** argv){
 }
 
 ```
+# Based on:
+  https://machinelearningcoban.com \
+  https://scikit-learn.org/stable/index.html \
+  https://github.com/scikit-learn/scikit-learn
