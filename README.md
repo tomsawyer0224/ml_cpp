@@ -1,4 +1,4 @@
-# This is a personal project, for educational purposes only!
+# Machine learning algorithms in c/c++
 # About this project:
 1. A C/C++ machine learning project that is backed by the Armadillo library.
 2. ML models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
