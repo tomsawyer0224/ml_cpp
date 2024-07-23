@@ -1,11 +1,13 @@
-# Machine learning algorithms in c/c++
+# Machine learning algorithms in C/C++
+This is a C/C++ machine learning project that is backed by the Armadillo library.
 # About this project:
-1. A C/C++ machine learning project that is backed by the Armadillo library.
-2. ML models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
-3. Preprocessing methods: Min Max Scaler, Standard Scaler.
-4. Metrics: $R^2$ score, Accuracy score.
-5. Optimizers: SGD, SGD momentum.
-6. The code is naive and non-optimized.
+- This is a personal project, for educational purposes only!
+- This project was built to help understand the core concepts of machine learning algorithms and optimization algorithms: the loss function, the gradient descent method, etc.
+- Machine learning models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
+- Preprocessing methods: Min Max Scaler, Standard Scaler.
+- Metrics: $R^2$ score, Accuracy score.
+- Optimizers: SGD, SGD momentum.
+- The code is naive and non-optimized.
 # How to use:
 1. Clone this project.
 2. Install the requirements: gcc compiler, armadilo library, CMake.
