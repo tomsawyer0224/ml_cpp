@@ -6,12 +6,12 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
 - Components:
     - Machine learning models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
     - Preprocessing methods: Min Max Scaler, Standard Scaler.
-    - Metrics: $R^2$ score, Accuracy score.
+    - Metrics: $R^2$ score, accuracy score.
     - Optimizers: SGD, SGD momentum.
 - The code is naive and non-optimized.
 # How to use
 1. Clone this project.
-2. Install the requirements: gcc compiler, armadilo library, CMake.
+2. Install the requirements: gcc compiler, armadilo library, and CMake.
 3. Example
     ```
     #define ARMA_USE_LAPACK
