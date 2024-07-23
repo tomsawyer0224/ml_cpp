@@ -11,7 +11,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
 # How to use
 1. Clone this project.
 2. Install the requirements: gcc compiler, armadilo library, CMake.
-3. Example:
+3. Example
     ```
     #define ARMA_USE_LAPACK
     #define ARMA_USE_BLAS
