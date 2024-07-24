@@ -10,8 +10,8 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     - Optimizers: SGD, SGD momentum.
 - The code is naive and non-optimized.
 # How to use
-1. Clone this project.
-2. Install the requirements: gcc compiler, armadilo library, and CMake.
+1. Clone this repo and cd into ml_cpp.
+2. Install the requirements: gcc compiler, armadilo library, CMake.
 3. Example
     ```
     #define ARMA_USE_LAPACK
