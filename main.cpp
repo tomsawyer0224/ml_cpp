@@ -216,4 +216,36 @@ int main(int argc, char** argv){
 
     return 0;
 }
-
+/*
+Linear Regression on Advertising dataset
+Training:
+     number of training samples: 140
+Testing:
+     number of testing samples: 60
+     R2: 0.901074
+------------------------
+Logistic Regression on framingham dataset
+Training:
+     number of training samples: 2560
+     number of iterations: 200
+Testing:
+     number of testing samples: 1096
+     accuracy: 0.849453
+------------------------
+Softmax Regression on mobile dataset
+Training:
+     number of training samples: 1400
+     number of iterations: 200
+Testing:
+     number of testing samples: 600
+     accuracy: 0.965
+------------------------
+Neural Network  on mobile dataset
+Training:
+     number of training samples: 1400
+     number of iterations: 200
+Testing:
+     number of testing samples: 600
+     accuracy: 0.951667
+------------------------
+*/
