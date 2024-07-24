@@ -8,14 +8,14 @@ using namespace std;
 //using namespace aca;
 
 int main(int argc, char** argv){
- 	arma::mat CHD;
- 	CHD.load("./datasets/framingham_removedNA.csv");
- 	//CHD.brief_print("CHD:");
- 	arma::uword N = CHD.n_rows;
- 	arma::mat X = CHD(arma::span::all, arma::span(0, CHD.n_cols-2));
- 	arma::mat y = CHD(arma::span::all, arma::span(CHD.n_cols-1, CHD.n_cols-1));
- 	//X.brief_print("X:");
- 	//y.brief_print("y:");
+	arma::mat CHD;
+	CHD.load("./datasets/framingham_removedNA.csv");
+	//CHD.brief_print("CHD:");
+	arma::uword N = CHD.n_rows;
+	arma::mat X = CHD(arma::span::all, arma::span(0, CHD.n_cols-2));
+	arma::mat y = CHD(arma::span::all, arma::span(CHD.n_cols-1, CHD.n_cols-1));
+	//X.brief_print("X:");
+	//y.brief_print("y:");
 	double test_size = 0.3;
 	arma::uword N_test = N*test_size;
 	arma::uword N_train = N - N_test;
@@ -31,22 +31,22 @@ int main(int argc, char** argv){
 	lr_chd.set_params("momentum", 0.9);
 	//lr_chd.get_params();
 	 
- 	aca::StandardScaler s;
- 	
- 	arma::mat X_train_scaled = s.fit_transform(X_train);
+	aca::StandardScaler s;
+	
+	arma::mat X_train_scaled = s.fit_transform(X_train);
 	arma::mat X_test_scaled = s.transform(X_test);
 	lr_chd.fit(X_train_scaled, y_train);
 	//cout<<"result:"<<endl;
 	
 	//lr_chd.get_params();
 	cout<<"Training phase:"<<endl;
-    cout<<"     number of training samples: "<<N_train<<endl;
-	cout<<"     n_iters: "<<lr_chd.get_params_int("n_iters")<<endl;
+	cout<<"     number of training samples: "<<N_train<<endl;
+	cout<<"     number of iterations: "<<lr_chd.get_params_int("n_iters")<<endl;
 	//lr_chd.get_params();cout<<endl;
-    cout<<"Testing phase:"<<endl;
-    cout<<"     number of testing samples: "<<N_test<<endl;
+	cout<<"Testing phase:"<<endl;
+	cout<<"     number of testing samples: "<<N_test<<endl;
 	cout<<"     accuracy score: "<<lr_chd.score(X_test_scaled, y_test)<<endl;
-    
+	
     /*
     arma::mat X_train = {10.0, 11.2, 30.4};
     arma::mat X_test = {2.4, 7.9};
@@ -89,8 +89,6 @@ int main(int argc, char** argv){
     cout<<"accuracy: "<<acc_mlp<<endl;
     cout<<"------------------------"<<endl;
     */
-    
-
     return 0;
 }
 
