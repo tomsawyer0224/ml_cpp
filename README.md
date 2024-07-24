@@ -58,6 +58,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     }
     ```
     ```
+    Result:
     Training phase:
          number of training samples: 2560
          n_iters: 500
