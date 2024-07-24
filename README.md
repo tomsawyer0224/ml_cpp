@@ -57,6 +57,14 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
         return 0;
     }
     ```
+    ```
+    Training phase:
+         number of training samples: 2560
+         n_iters: 500
+    Testing phase:
+         number of testing samples: 1096
+         accuracy score: 0.834854
+    ```
 # Based on:
   https://machinelearningcoban.com \
   https://scikit-learn.org/stable/index.html \
