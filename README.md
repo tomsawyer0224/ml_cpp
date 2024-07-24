@@ -2,7 +2,7 @@
 This is a C/C++ machine learning project that is backed by the Armadillo library.
 # About this project
 - This is a personal project, for educational purposes only!
-- This project was built to help understand the core concepts of machine learning algorithms and optimization algorithms: the loss function, the gradient descent method, etc.
+- This project was built to help understand the core concepts of machine learning algorithms and optimization algorithms: loss function, gradient descent, etc.
 - Components:
     - Machine learning models: Linear Regression, Logistic Regression, Softmax Regression, Neural Network.
     - Preprocessing methods: Min Max Scaler, Standard Scaler.
