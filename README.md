@@ -49,7 +49,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
         lr_chd.fit(X_train_scaled, y_train);
         cout<<"Training phase:"<<endl;
         cout<<"     number of training samples: "<<N_train<<endl;
-        cout<<"     n_iters: "<<lr_chd.get_params_int("n_iters")<<endl;
+        cout<<"     number of iterations: "<<lr_chd.get_params_int("n_iters")<<endl;
         cout<<"Testing phase:"<<endl;
         cout<<"     number of testing samples: "<<N_test<<endl;
         cout<<"     accuracy score: "<<lr_chd.score(X_test_scaled, y_test)<<endl;
@@ -61,7 +61,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     Result:
     Training phase:
          number of training samples: 2560
-         n_iters: 500
+         number of iterations: 500
     Testing phase:
          number of testing samples: 1096
          accuracy score: 0.834854
