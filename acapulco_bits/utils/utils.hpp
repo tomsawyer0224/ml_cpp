@@ -1,36 +1,3 @@
-/*
-std::tuple<arma::mat, arma::mat, arma::mat, arma::mat> train_test_split(const arma::mat& X, const arma::mat& y, double test_size=0.3){
-	      // X_train, X_test,    y_train,   y_test
-	if(X.n_rows != y.n_rows){
-		std::cout<<"train_test_split() failed! different number of rows"<<std::endl;
-		exit(1);
-	}
-	if(test_size <= 0 || test_size >= 1){
-		std::cout<<"train_test_split() failed! test_size must be in (0,1)"<<std::endl;
-		exit(1);
-	}
-	arma::mat Xy = arma::join_rows(X, y);
-	Xy = arma::shuffle(Xy);
-	arma::uword N = X.n_rows;
-	arma::uword N_test = N*test_size;
-	if(N_test == N) {
-		N_test = N - 1;//ensure that there are at least 1 data point in X_train
-	}
-	if(N_test == 0){
-		N_test = 1;//ensure that there are at least 1 data point in X_test
-	}
-	arma::uword N_train = N - N_test;
-	arma::mat X_train, X_test, y_train, y_test;
-	X_train = Xy(0, 0, arma::size(N_train, X.n_cols));
-	X_test = Xy(N_train, 0, arma::size(N_test, X.n_cols));
-	y_train = Xy(0, X.n_cols, arma::size(N_train, y.n_cols));
-	y_test = Xy(N_train, X.n_cols, arma::size(N_test, y.n_cols));
-	std::tuple<arma::mat, arma::mat, arma::mat, arma::mat> res;
-	res = std::make_tuple(X_train, X_test, y_train, y_test);
-	return res;
-}
-*/
-
 arma::field<arma::mat> train_test_split(const arma::mat& X, const arma::mat& y, double test_size=0.3, bool shuffle=true){
 	//return a field: X_train, X_test, y_train, y_test
 	if(X.n_rows != y.n_rows){
@@ -205,28 +172,3 @@ arma::mat drelu(const arma::mat& X){
     arma::mat R = ones % (X > zeros);
     return R;
 };
-/*
-arma::mat relu(const arma::mat& X){
-	arma::mat res(arma::size(X), arma::fill::zeros);
-	for(arma::uword i = 0; i < X.n_rows; i++){
-		for(arma::uword j = 0; j < X.n_cols; j++){
-			if(X(i,j) > 0){
-				res(i,j) = X(i,j);
-			}
-		}
-	}
-	return res;
-}
-
-arma::mat drelu(const arma::mat& X){
-	arma::mat res(arma::size(X), arma::fill::zeros);
-	for(arma::uword i = 0; i < X.n_rows; i++){
-		for(arma::uword j = 0; j < X.n_cols; j++){
-			if(X(i,j) > 0){
-				res(i,j) = 1;
-			}
-		}
-	}
-	return res;
-}
-*/
