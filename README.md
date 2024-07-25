@@ -17,7 +17,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     - Predict whether the patient has a 10-year risk of future (CHD) coronary heart disease.
         - Model: Logistic Regression
         - Dataset: [framingham](datasets/framingham_removedNA_org.csv)
-    - Predict the price range of a mobile phone.
+    - Predict the price range of mobile phones.
         - Models: Softmax Regression, Neural Network (with a single hidden layer).
         - Dataset: [mobile](datasets/mobile_train_org.csv)
 2. **Results**
