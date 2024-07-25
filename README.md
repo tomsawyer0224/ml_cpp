@@ -18,7 +18,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
         - Model: Logistic Regression
         - Dataset: [framingham](datasets/framingham_removedNA_org.csv)
     - Experiment 3: Predict the price range of a mobile phone.
-        - Models: Softmax Regression, Neural Network
+        - Models: Softmax Regression, Neural Network (with a single hidden layer).
         - Dataset: [mobile](datasets/mobile_train_org.csv)
     - Platform: Ubuntu 22.04.4 LTS (RAM 12GB, Processor Core i5-3470).
 2. **Results**
@@ -60,7 +60,12 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
          accuracy: 0.913333
     -------------------------------------
     ```
-4. **Conclusions**
+3. **Conclusions**
+    - These models have good performance on small datasets.
+    - Neural Network gets a less accuracy than Softmax Regression. The reasons can be:
+        - Overfitting. 
+        - The hyper-parameters are not optimal.
+        - Dataset is too small. 
 # How to use
 1. Clone this repo and cd into ml_cpp.
 2. Install the requirements: gcc compiler, armadilo library, CMake.
