@@ -124,7 +124,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
          number of testing samples: 1096
          accuracy score: 0.834854
     ```
-# Based on:
+# Based on
   https://machinelearningcoban.com \
   https://scikit-learn.org/stable/index.html \
   https://github.com/scikit-learn/scikit-learn
