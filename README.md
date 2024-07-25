@@ -60,17 +60,16 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     -------------------------------------
     ```
 3. **Conclusions**
-    - These models have good performance on small datasets.
-    - Neural Network gets less accuracy than Softmax Regression. The reasons can be:
+    - These models perform quite well on small datasets.
+    - Neural Network has worse performance than Softmax Regression. The reasons can be:
         - Overfitting.
         - The hyper-parameters are not optimal.
-        - Dataset is too small.
+        - The dataset is too small.
 # How to use
 1. Clone this repo and cd into ml_cpp.
 2. Install the requirements: gcc compiler, armadilo library, and CMake.
 3. Create a new file named main.cpp (with the content below).
-4. Run the command 'make' to compile.
-5. Run the executive file: ./main
+4. In the terminal: run the command 'make' to compile, then run the executable file './main'.
     ```
     //main.cpp
     #define ARMA_USE_LAPACK
