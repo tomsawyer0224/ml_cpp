@@ -20,9 +20,47 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     - Experiment 3: Predict the price range of a mobile phone.
         - Models: Softmax Regression, Neural Network
         - Dataset: [mobile](datasets/mobile_train_org.csv)
-    - Platform: Ubuntu 22.04.4 LTS (RAM 12GB, Processor Core i5-3470)
+    - Platform: Ubuntu 22.04.4 LTS (RAM 12GB, Processor Core i5-3470).
 2. **Results**
-3. **Conclusions**
+    ```
+    -------------------------------------
+    Linear Regression on Advertising dataset
+    Training:
+         number of training samples: 140
+         R2: 0.89371
+    Testing:
+         number of testing samples: 60
+         R2: 0.901074
+    -------------------------------------
+    Logistic Regression on framingham dataset
+    Training:
+         number of training samples: 2560
+         number of iterations: 200
+         accuracy: 0.853906
+    Testing:
+         number of testing samples: 1096
+         accuracy: 0.849453
+    -------------------------------------
+    Softmax Regression on mobile dataset
+    Training:
+         number of training samples: 1400
+         number of iterations: 200
+         accuracy: 0.98
+    Testing:
+         number of testing samples: 600
+         accuracy: 0.965
+    -------------------------------------
+    Neural Network  on mobile dataset
+    Training:
+         number of training samples: 1400
+         number of iterations: 200
+         accuracy: 0.950714
+    Testing:
+         number of testing samples: 600
+         accuracy: 0.913333
+    -------------------------------------
+    ```
+4. **Conclusions**
 # How to use
 1. Clone this repo and cd into ml_cpp.
 2. Install the requirements: gcc compiler, armadilo library, CMake.
