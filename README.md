@@ -9,6 +9,13 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     - Metrics: $R^2$ score, accuracy score.
     - Optimizers: SGD, SGD momentum.
 - The code is naive and non-optimized.
+# Experiment
+1. **Training**
+   - Models:
+   - Datasets:
+   - 
+3. **Results**
+4. **Conclusions**
 # How to use
 1. Clone this repo and cd into ml_cpp.
 2. Install the requirements: gcc compiler, armadilo library, CMake.
