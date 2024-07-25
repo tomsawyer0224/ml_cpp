@@ -11,16 +11,15 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
 - The code is naive and non-optimized.
 # Experiment
 1. **Training**
-    - Experiment 1: Predict sales based on advertising expenditures (on TV, radio, and newspaper).
+    - Predict sales based on advertising expenditures (on TV, radio, and newspaper).
         - Model: Linear Regression
         - Dataset: [Advertising](datasets/Advertising.csv)
-    - Experiment 2: Predict whether the patient has a 10-year risk of future (CHD) coronary heart disease.
+    - Predict whether the patient has a 10-year risk of future (CHD) coronary heart disease.
         - Model: Logistic Regression
         - Dataset: [framingham](datasets/framingham_removedNA_org.csv)
-    - Experiment 3: Predict the price range of a mobile phone.
+    - Predict the price range of a mobile phone.
         - Models: Softmax Regression, Neural Network (with a single hidden layer).
         - Dataset: [mobile](datasets/mobile_train_org.csv)
-    - Platform: Ubuntu 22.04.4 LTS (RAM 12GB, Processor Core i5-3470).
 2. **Results**
     ```
     -------------------------------------
@@ -62,10 +61,10 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
     ```
 3. **Conclusions**
     - These models have good performance on small datasets.
-    - Neural Network gets a less accuracy than Softmax Regression. The reasons can be:
-        - Overfitting. 
+    - Neural Network gets less accuracy than Softmax Regression. The reasons can be:
+        - Overfitting.
         - The hyper-parameters are not optimal.
-        - Dataset is too small. 
+        - Dataset is too small.
 # How to use
 1. Clone this repo and cd into ml_cpp.
 2. Install the requirements: gcc compiler, armadilo library, CMake.
