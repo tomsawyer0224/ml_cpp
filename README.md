@@ -18,7 +18,7 @@ This is a C/C++ machine learning project that is backed by the Armadillo library
         - Model: Logistic Regression
         - Dataset: [framingham](datasets/framingham_removedNA_org.csv)
     - Predict the price range of mobile phones.
-        - Models: Softmax Regression, Neural Network (with a single hidden layer).
+        - Models: Softmax Regression, Neural Network (with a single hidden layer, relu activation).
         - Dataset: [mobile](datasets/mobile_train_org.csv)
 2. **Results**
     ```
